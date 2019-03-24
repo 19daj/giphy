@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(3, 26, 151, 0.692);
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #65afe7;
+    padding: 4%;
+}
+
+.container img {
+    max-width: 250px;
+    padding: 4px;
+}
+
+#elements {
+    padding: 2%;
+}
+
+#elements .element {
+    margin: 10px;
+    border: 2px solid rgba(3, 26, 151, 0.692);
+    display: block;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    margin: 2%;
+}
+
+#elements .element a {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#title {
+    color: white;
+    text-align: center;
+}
+
+img #logo-giphy {
+    width: 30%;
+}
+
+#giphy {
+    width: 100%;
+    height: inherit;
+}
